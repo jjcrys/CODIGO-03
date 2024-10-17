@@ -10,7 +10,9 @@ $vacio = array();
     <title>Ejercicio 9</title>
 </head>
 <body>
-    table
+    <table>
+        
+    </table>
     
 </body>
 </html>
