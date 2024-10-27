@@ -1,5 +1,4 @@
 <?php
-/*VECTOR ASOCIATIVO DE 10 ELEMENTOS*/
 $vector = array();
 $vector[0] = 1;
 $vector[3] = 2;
