@@ -6,6 +6,7 @@ function sumaElementos (){
     $argumentos = func_get_args();
     $suma = 0;
 
+    //ME falto comprobar si eran enteros y tambien poner que haya un argumento por lo menos 
     foreach ($argumentos as $argumento) {
         if(is_array($argumento)){
             foreach ($argumento as $valorVec) {
