@@ -10,9 +10,11 @@ function sumaElementos (){
     foreach ($argumentos as $argumento) {
         if(is_array($argumento)){
             foreach ($argumento as $valorVec) {
-                $suma+= $valorVec;
+                if (is_int($valorVec)) {
+                    $suma+= $valorVec;
+                }
             }
-        }else{
+        }else if(is_int($argumento)){
             $suma+= $argumento;
         }
     }
